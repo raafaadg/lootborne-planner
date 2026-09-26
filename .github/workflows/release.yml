@@ -16,15 +16,25 @@ jobs:
     runs-on: windows-latest
     timeout-minutes: 45
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v5
         with:
           node-version: 24
           cache: npm
 
       - name: Install
         run: npm ci
+
+      # npm 11 may skip the dependencies' install scripts (see "allowScripts" in package.json); the build
+      # needs both downloads, so run them here and fail early if either is missing
+      - name: Electron runtime and the frida binding
+        shell: bash
+        run: |
+          set -euo pipefail
+          [ -f node_modules/electron/dist/electron.exe ] || node node_modules/electron/install.js
+          [ -f node_modules/frida/build/frida_binding.node ] || (cd node_modules/frida && PATH="$PWD/../.bin:$PATH" node scripts/install.js)
+          ls -la node_modules/electron/dist/electron.exe node_modules/frida/build/frida_binding.node
 
       - name: The tag matches package.json
         if: startsWith(github.ref, 'refs/tags/v')
@@ -39,13 +49,14 @@ jobs:
       - name: Tests
         run: npm test
 
-      - name: Build the portable zip and the installer
-        run: |
-          npm run dist
-          npm run dist:installer
+      - name: Build the portable zip
+        run: npm run dist
+
+      - name: Build the installer
+        run: npm run dist:installer
 
       - name: Keep the files
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v5
         with:
           name: lootborne-planner-windows
           path: |
