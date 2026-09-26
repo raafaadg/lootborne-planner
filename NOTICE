@@ -1,0 +1,9 @@
+Lootborne Planner (formerly Lootborne Companion)
+
+The visual design (palette, card / kpi / pill / chip / switch grammar, grouped side menu) follows
+our own BotFarm Planner panel (Documents/BotFarmPlanner/bfapi/painel).
+The main-process tap structure (attach loop, silence watchdog, detach timeout) was inspired by
+Bomb Farm Companion (https://github.com/lucasfevi/bombfarm-companion, Apache-2.0).
+
+Lootborne is a game by Turbolento Games. This project is an unofficial fan tool and is not
+affiliated with or endorsed by Turbolento Games or Valve.

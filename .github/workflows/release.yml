@@ -1,0 +1,68 @@
+name: Release
+
+# Push a tag with the version in package.json (e.g. v0.22.1) and this builds, tests and publishes the
+# GitHub release with the Windows installer (.exe) and the portable zip. "Run workflow" by hand builds
+# the same files and keeps them as a downloadable artifact, without publishing anything.
+on:
+  push:
+    tags: ['v*']
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  windows:
+    runs-on: windows-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+
+      - name: Install
+        run: npm ci
+
+      - name: The tag matches package.json
+        if: startsWith(github.ref, 'refs/tags/v')
+        shell: bash
+        run: |
+          v=$(node -p "require('./package.json').version")
+          if [ "v$v" != "$GITHUB_REF_NAME" ]; then echo "tag $GITHUB_REF_NAME does not match package.json version $v"; exit 1; fi
+
+      - name: Typecheck
+        run: npm run typecheck
+
+      - name: Tests
+        run: npm test
+
+      - name: Build the portable zip and the installer
+        run: |
+          npm run dist
+          npm run dist:installer
+
+      - name: Keep the files
+        uses: actions/upload-artifact@v4
+        with:
+          name: lootborne-planner-windows
+          path: |
+            release/*.zip
+            release/installer/*.exe
+          retention-days: 14
+
+      - name: Publish the release
+        if: startsWith(github.ref, 'refs/tags/v')
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          v="${GITHUB_REF_NAME#v}"
+          gh release create "$GITHUB_REF_NAME" \
+            --title "Lootborne Planner $GITHUB_REF_NAME" \
+            --notes-file .github/release-notes.md \
+            --generate-notes \
+            "release/installer/Lootborne-Planner-Setup-$v.exe" \
+            "release/Lootborne-Planner-v$v-win-x64.zip"

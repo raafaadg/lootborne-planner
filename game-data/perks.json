@@ -1,0 +1,312 @@
+[
+ {
+  "id": 1,
+  "name": "Ira Reprimida",
+  "effect": "Cada golpe sem crítico acumula +10% de chance de CRIT (máx. +50%). Reinicia quando você acerta um crítico",
+  "nameEn": "Pent-Up Wrath",
+  "effectEn": "Each non-crit hit stacks +10% CRIT chance (max +50%). Resets when you land a crit",
+  "tier": 0,
+  "cost": 100,
+  "psWeight": 50
+ },
+ {
+  "id": 2,
+  "name": "Guarda Inata",
+  "effect": "Se seu BLOQUEIO estiver abaixo de 15%, ele é elevado a 15%",
+  "nameEn": "Innate Guard",
+  "effectEn": "If your PARRY is below 15%, it's raised to 15%",
+  "tier": 0,
+  "cost": 100,
+  "psWeight": 50
+ },
+ {
+  "id": 3,
+  "name": "Primeiro Sangue",
+  "effect": "O primeiro ataque de cada combate é um crítico garantido",
+  "nameEn": "First Blood",
+  "effectEn": "First attack of each fight is a guaranteed critical",
+  "tier": 0,
+  "cost": 70,
+  "psWeight": 55
+ },
+ {
+  "id": 4,
+  "name": "Fúria Bruta",
+  "effect": "Converte 20% da DEF em ATK",
+  "nameEn": "Brute's Temper",
+  "effectEn": "Convert 20% of DEF into ATK",
+  "tier": 2,
+  "cost": 700,
+  "psWeight": 50
+ },
+ {
+  "id": 5,
+  "name": "Ímpeto Crescente",
+  "effect": "Cada ataque acertado: +4% de dano, até +40% (reinicia a cada combate)",
+  "nameEn": "Rising Momentum",
+  "effectEn": "Each landed attack: +4% damage, up to +40% (resets each fight)",
+  "tier": 2,
+  "cost": 700,
+  "psWeight": 110
+ },
+ {
+  "id": 6,
+  "name": "Investida Pesada",
+  "effect": "A cada 3 ataques: causa +140% de dano e ignora o BLOQUEIO",
+  "nameEn": "Heavy Lunge",
+  "effectEn": "Every 3rd attack deals +140% damage and ignores parry",
+  "tier": 2,
+  "cost": 700,
+  "psWeight": 110
+ },
+ {
+  "id": 7,
+  "name": "Veneno Persistente",
+  "effect": "Seus críticos envenenam o inimigo, causando 28 de dano em 4 s",
+  "nameEn": "Lingering Venom",
+  "effectEn": "Your crits poison the enemy for 28 damage over 4 sec",
+  "tier": 0,
+  "cost": 100,
+  "psWeight": 102
+ },
+ {
+  "id": 8,
+  "name": "Réplica Agressiva",
+  "effect": "Ao bloquear, seus próximos 2 ataques causam +35% de dano",
+  "nameEn": "Aggressive Riposte",
+  "effectEn": "When you parry, your next 2 attacks deal +35% damage",
+  "tier": 2,
+  "cost": 700,
+  "psWeight": 94
+ },
+ {
+  "id": 9,
+  "name": "Relâmpago Engarrafado",
+  "effect": "+40% de ATK, -15% de PV máximo",
+  "nameEn": "Bottled Lightning",
+  "effectEn": "+40% ATK, -15% max HP",
+  "tier": 1,
+  "cost": 350,
+  "psWeight": 60
+ },
+ {
+  "id": 10,
+  "name": "Pele de Dragão",
+  "effect": "+35% de DEF e +15% de PV máximo, -12% de ATK",
+  "nameEn": "Dragonhide",
+  "effectEn": "+35% DEF and +15% max HP, -12% ATK",
+  "tier": 0,
+  "cost": 100,
+  "psWeight": 55
+ },
+ {
+  "id": 11,
+  "name": "Fúria Agonizante",
+  "effect": "Abaixo de 40% de PV: +80% de ATK",
+  "nameEn": "Dying Fury",
+  "effectEn": "Below 40% HP: +80% ATK",
+  "tier": 1,
+  "cost": 350,
+  "psWeight": 102
+ },
+ {
+  "id": 12,
+  "name": "Voto Carmesim",
+  "effect": "Cura 3 PV a cada ataque que acerta",
+  "nameEn": "Crimson Vow",
+  "effectEn": "Heal 3 HP for each attack that lands",
+  "tier": 0,
+  "cost": 180,
+  "psWeight": 60
+ },
+ {
+  "id": 13,
+  "name": "Temeridade Total",
+  "effect": "+30% de dano causado, mas você sofre 10% mais dano",
+  "nameEn": "Reckless Abandon",
+  "effectEn": "+30% damage dealt, but you take 10% more damage",
+  "tier": 1,
+  "cost": 350,
+  "psWeight": 60
+ },
+ {
+  "id": 14,
+  "name": "Chamado do Rival",
+  "effect": "+30% de dano no PvP. Sem efeito no PvE.",
+  "nameEn": "Rival's Calling",
+  "effectEn": "+30% damage in PvP. No effect in PvE.",
+  "tier": 0,
+  "cost": 100,
+  "psWeight": 130
+ },
+ {
+  "id": 15,
+  "name": "Agressão",
+  "effect": "Ganhe +6 de ATK",
+  "nameEn": "Aggression",
+  "effectEn": "Gain +6 ATK",
+  "tier": 0,
+  "cost": 100,
+  "psWeight": 55
+ },
+ {
+  "id": 16,
+  "name": "Anjo da Guarda",
+  "effect": "Se você entrar em combate abaixo de 50% de PV: ganhe um escudo igual a 20% do seu PV máximo",
+  "nameEn": "Guardian Angel",
+  "effectEn": "If you enter combat below 50% HP: gain a shield equal to 20% of your max HP",
+  "tier": 1,
+  "cost": 350,
+  "psWeight": 120
+ },
+ {
+  "id": 17,
+  "name": "Caçador de Colossos",
+  "effect": "Somente PvE: cada golpe causa +~1,5% do PV máximo do inimigo",
+  "nameEn": "Colossus Hunter",
+  "effectEn": "PvE only: each hit deals +~1.5% of enemy max HP",
+  "tier": 1,
+  "cost": 400,
+  "psWeight": 128
+ },
+ {
+  "id": 18,
+  "name": "Tenacidade",
+  "effect": "Cura 5% do dano que você causa",
+  "nameEn": "Tenacity",
+  "effectEn": "Heals for 5% of the damage you deal",
+  "tier": 2,
+  "cost": 700,
+  "psWeight": 60
+ },
+ {
+  "id": 19,
+  "name": "Espinhos",
+  "effect": "Reflete 50% do dano sofrido de volta ao inimigo",
+  "nameEn": "Thorns",
+  "effectEn": "Reflect 50% of damage taken back to the enemy",
+  "tier": 0,
+  "cost": 100,
+  "psWeight": 110
+ },
+ {
+  "id": 20,
+  "name": "Precisão Absoluta",
+  "effect": "Seus ataques não podem causar crítico; em vez disso, causam +20 de dano fixo",
+  "nameEn": "Absolute Precision",
+  "effectEn": "Your attacks can't crit; instead they deal +20 flat damage",
+  "tier": 1,
+  "cost": 350,
+  "psWeight": 212
+ },
+ {
+  "id": 21,
+  "name": "Coração Ardente",
+  "effect": "Desativa roubo de vida, cura de itens e cura de Poções, mas você ganha +50% de dano. A recuperação natural de fim de combate continua funcionando.",
+  "nameEn": "Burning Heart",
+  "effectEn": "Disables lifesteal, item healing and healing from potions, but +50% damage. Natural end-of-combat recovery still works.",
+  "tier": 1,
+  "cost": 350,
+  "psWeight": 212
+ },
+ {
+  "id": 22,
+  "name": "Aposta do Duelista",
+  "effect": "Você causa +100% de dano, mas também sofre +25% de dano",
+  "nameEn": "Duelist's Gamble",
+  "effectEn": "You deal +100% damage, but you also take +25% damage",
+  "tier": 2,
+  "cost": 700,
+  "psWeight": 255
+ },
+ {
+  "id": 23,
+  "name": "Maldição de Sangue",
+  "effect": "Rouba 13% de vida, mas 11% do dano que você causa drena seu próprio PV; a cura acima do PV máximo vira um escudo temporário",
+  "nameEn": "Blood Curse",
+  "effectEn": "You lifesteal 13%, but 11% of the damage you deal drains your own HP; overheal becomes a shield",
+  "tier": 2,
+  "cost": 700,
+  "psWeight": 221
+ },
+ {
+  "id": 24,
+  "name": "Golpe de Misericórdia",
+  "effect": "Somente PvE: executa instantaneamente inimigos abaixo de 20% de PV",
+  "nameEn": "Coup de Grace",
+  "effectEn": "PvE only: instantly execute enemies below 20% HP",
+  "tier": 1,
+  "cost": 350,
+  "psWeight": 212
+ },
+ {
+  "id": 25,
+  "name": "Eco Voraz",
+  "effect": "Todo 5º ataque causa +120% de dano e ignora o BLOQUEIO",
+  "nameEn": "Voracious Echo",
+  "effectEn": "Every 5th attack deals +120% damage and ignores parry",
+  "tier": 1,
+  "cost": 350,
+  "psWeight": 230
+ },
+ {
+  "id": 26,
+  "name": "Eco Espelhado",
+  "effect": "Copia a mecânica do Perk no slot à sua ESQUERDA (só podem ser copiados os Perks com uma mecânica de gatilho)",
+  "nameEn": "Mirror Echo",
+  "effectEn": "Copies the mechanic of the Perk in the slot to its LEFT (only Perks with a triggered mechanic can be copied)",
+  "tier": 2,
+  "cost": 700,
+  "psWeight": 250
+ },
+ {
+  "id": 27,
+  "name": "Ápice Crítico",
+  "effect": "Eleva o limite de CRIT de 60% para 75%",
+  "nameEn": "Critical Apex",
+  "effectEn": "+15% CRIT chance, and raises the CRIT cap from 60% to 75%",
+  "tier": 1,
+  "cost": 350,
+  "psWeight": 230
+ },
+ {
+  "id": 28,
+  "name": "Baluarte",
+  "effect": "Abaixo de 25% de PV: absorve 42% do dano e cura 4 PV por segundo",
+  "nameEn": "Bulwark",
+  "effectEn": "Below 25% HP: absorb 42% damage and heal 4 HP per second",
+  "tier": 2,
+  "cost": 700,
+  "psWeight": 238
+ },
+ {
+  "id": 29,
+  "name": "Último Suspiro",
+  "effect": "Uma vez por combate: em vez de morrer, você fica com 25% de PV",
+  "nameEn": "Last Breath",
+  "effectEn": "Once per fight: instead of dying, you are left at 25% HP",
+  "tier": 1,
+  "cost": 350,
+  "psWeight": 200
+ },
+ {
+  "id": 30,
+  "name": "Guarda Instintiva",
+  "effect": "+0,5% de DEF para cada ponto de BLOQUEIO, até +27,5%",
+  "nameEn": "Instinctive Guard",
+  "effectEn": "+0.5% DEF for each point of PARRY, up to +27.5%",
+  "tier": 1,
+  "cost": 350,
+  "psWeight": 130
+ },
+ {
+  "id": 31,
+  "name": "Perfura-Armadura",
+  "effect": "Seus ataques ignoram 35% do BLOQUEIO inimigo e 35% da DEF inimiga",
+  "nameEn": "Armor Piercer",
+  "effectEn": "Your attacks ignore 35% of enemy PARRY and 35% of enemy DEF",
+  "tier": 1,
+  "cost": 350,
+  "psWeight": 140
+ }
+]

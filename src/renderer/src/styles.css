@@ -1,0 +1,121 @@
+@import 'tailwindcss';
+
+/* Palette and component grammar of our BotFarm Planner panel (bfapi/painel/base.css,
+   componentes.css, topo.css): warm dark brown, gold + orange accents, 12 px cards. */
+@theme static {
+  --color-bg: #100e0a;
+  --color-surface: #1a1712; /* --panel */
+  --color-surface-2: #221e17; /* --panel2 */
+  --color-bg-2: #161310; /* --fundo3 */
+  --color-line: #332c22;
+  --color-line-2: #413828;
+  --color-row: #262019;
+  --color-ink: #ede2cc; /* --txt */
+  --color-muted: #a2947a; /* --dim */
+  --color-gold: #e6b23c;
+  --color-gold-deep: #8a6416;
+  --color-accent: #d98a2b;
+  --color-accent-ink: #171208;
+  --color-xp: #63c3e0;
+  --color-up: #78c96a; /* --good */
+  --color-down: #e0685a; /* --bad */
+  --color-warn: #e6b23c;
+  --color-info: #63c3e0;
+  --color-hp: #e0685a;
+  --color-stamina: #e6b23c;
+
+  /* Lootborne rarities in the BotFarm rarity hues: Common, Rare, Epic, Legendary, Mythic, Ascended */
+  --color-rar-0: #9a8f7d;
+  --color-rar-1: #5bc0de;
+  --color-rar-2: #b98cd8;
+  --color-rar-3: #e6b23c;
+  --color-rar-4: #e0685a;
+  --color-rar-5: #7fe0c8;
+
+  /* Enemy colours (EnemyColor): Grigio, Blu, Viola */
+  --color-enemy-0: #b8ad97;
+  --color-enemy-1: #63c3e0;
+  --color-enemy-2: #b98cd8;
+
+  --font-sans: 'Segoe UI', system-ui, sans-serif;
+  --radius-card: 12px;
+
+  --animate-pulsa: pulsa 2s ease-in-out infinite;
+}
+
+@keyframes pulsa {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.35;
+  }
+}
+
+:root {
+  color-scheme: dark;
+  background: var(--color-bg);
+  color: var(--color-ink);
+  font: 14px/1.5 var(--font-sans);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+::-webkit-scrollbar {
+  width: 9px;
+  height: 9px;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-line-2);
+  border-radius: 5px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.num {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Tables: the BotFarm grammar - dim uppercase headers, numbers right-aligned, faint row rules. */
+table.tabela {
+  width: 100%;
+  border-collapse: collapse;
+  font-variant-numeric: tabular-nums;
+}
+table.tabela th {
+  color: var(--color-muted);
+  font-size: 10px;
+  font-weight: 600;
+  text-align: right;
+  padding: 0 0 5px;
+  white-space: nowrap;
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+  border-bottom: 1px solid var(--color-line);
+}
+table.tabela td {
+  padding: 5px 0;
+  border-bottom: 1px solid var(--color-row);
+  text-align: right;
+  vertical-align: top;
+}
+table.tabela th:first-child,
+table.tabela td:first-child,
+table.tabela .esq {
+  text-align: left;
+}
+table.tabela th + th,
+table.tabela td + td {
+  padding-left: 12px;
+}
+table.tabela tr:last-child td {
+  border-bottom: none;
+}

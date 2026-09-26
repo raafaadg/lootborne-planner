@@ -1,0 +1,163 @@
+[
+ {
+  "id": 0,
+  "name": "Outskirts",
+  "totalEnemies": 30,
+  "categories": [
+   4151,
+   4128,
+   4158,
+   4157,
+   4150
+  ],
+  "resist": "Nessuna",
+  "weak": "Nessuna",
+  "dropPct": {
+   "common": 92.0,
+   "rare": 8.0,
+   "epic": 0.0,
+   "legendary": 0.0,
+   "mythic": 0.0
+  },
+  "clearRewardRarity": "Rare",
+  "levelUpRarityCap": "Rare"
+ },
+ {
+  "id": 1,
+  "name": "Village",
+  "totalEnemies": 54,
+  "categories": [
+   4154,
+   4152,
+   4155,
+   4125,
+   4134
+  ],
+  "resist": "Nessuna",
+  "weak": "Nessuna",
+  "dropPct": {
+   "common": 85.0,
+   "rare": 15.0,
+   "epic": 0.0,
+   "legendary": 0.0,
+   "mythic": 0.0
+  },
+  "clearRewardRarity": "Rare",
+  "levelUpRarityCap": "Rare"
+ },
+ {
+  "id": 2,
+  "name": "Forest",
+  "totalEnemies": 58,
+  "categories": [
+   4145,
+   4139,
+   4138,
+   4148,
+   4143
+  ],
+  "resist": "Nessuna",
+  "weak": "Nessuna",
+  "dropPct": {
+   "common": 74.0,
+   "rare": 25.0,
+   "epic": 1.0,
+   "legendary": 0.0,
+   "mythic": 0.0
+  },
+  "clearRewardRarity": "Epic",
+  "levelUpRarityCap": "Rare"
+ },
+ {
+  "id": 3,
+  "name": "Graveyard",
+  "totalEnemies": 63,
+  "categories": [
+   4141,
+   4132,
+   4153,
+   4159,
+   4131
+  ],
+  "resist": "Nessuna",
+  "weak": "Nessuna",
+  "dropPct": {
+   "common": 54.0,
+   "rare": 32.0,
+   "epic": 14.0,
+   "legendary": 0.0,
+   "mythic": 0.0
+  },
+  "clearRewardRarity": "Epic",
+  "levelUpRarityCap": "Epic"
+ },
+ {
+  "id": 4,
+  "name": "War Camp",
+  "totalEnemies": 67,
+  "categories": [
+   4129,
+   4156,
+   4140,
+   4130,
+   4147
+  ],
+  "resist": "Nessuna",
+  "weak": "Nessuna",
+  "dropPct": {
+   "common": 39.0,
+   "rare": 36.0,
+   "epic": 25.0,
+   "legendary": 0.0,
+   "mythic": 0.0
+  },
+  "clearRewardRarity": "Epic",
+  "levelUpRarityCap": "Epic"
+ },
+ {
+  "id": 5,
+  "name": "Uhn-Baa Gorge",
+  "totalEnemies": 70,
+  "categories": [
+   4135,
+   4146,
+   4133,
+   4137,
+   4142
+  ],
+  "resist": "Nessuna",
+  "weak": "Nessuna",
+  "dropPct": {
+   "common": 30.5,
+   "rare": 36.0,
+   "epic": 33.0,
+   "legendary": 0.5,
+   "mythic": 0.0
+  },
+  "clearRewardRarity": "Legendary",
+  "levelUpRarityCap": "Epic"
+ },
+ {
+  "id": 6,
+  "name": "Cave",
+  "totalEnemies": 70,
+  "categories": [
+   4136,
+   4149,
+   4144,
+   4126,
+   4127
+  ],
+  "resist": "Nessuna",
+  "weak": "Nessuna",
+  "dropPct": {
+   "common": 26.0,
+   "rare": 32.0,
+   "epic": 40.0,
+   "legendary": 2.0,
+   "mythic": 0.0
+  },
+  "clearRewardRarity": "Legendary",
+  "levelUpRarityCap": "Legendary"
+ }
+]

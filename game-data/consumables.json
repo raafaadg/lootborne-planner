@@ -1,0 +1,209 @@
+[
+ {
+  "id": 1,
+  "name": "Bastion",
+  "category": "Combat",
+  "effect": "Damage taken -20%",
+  "durationSec": 7200,
+  "mods": {
+   "damageTakenMult": 0.8
+  }
+ },
+ {
+  "id": 2,
+  "name": "Fury",
+  "category": "Combat",
+  "effect": "+25% ATK",
+  "durationSec": 7200,
+  "mods": {
+   "atkPct": 0.25
+  }
+ },
+ {
+  "id": 3,
+  "name": "Rampart",
+  "category": "Combat",
+  "effect": "+30% DEF",
+  "durationSec": 7200,
+  "mods": {
+   "defPct": 0.3
+  }
+ },
+ {
+  "id": 4,
+  "name": "Vigor",
+  "category": "Combat",
+  "effect": "+20% max HP",
+  "durationSec": 7200,
+  "mods": {
+   "maxHpPct": 0.2
+  }
+ },
+ {
+  "id": 5,
+  "name": "Savagery",
+  "category": "Combat",
+  "effect": "+20% CRIT",
+  "durationSec": 7200,
+  "mods": {
+   "critFlat": 20.0
+  }
+ },
+ {
+  "id": 6,
+  "name": "Feline Reflexes",
+  "category": "Combat",
+  "effect": "+16% PARRY",
+  "durationSec": 7200,
+  "mods": {
+   "parryFlat": 16.0
+  }
+ },
+ {
+  "id": 7,
+  "name": "Regeneration",
+  "category": "Combat",
+  "effect": "Recover 18% max HP after each fight",
+  "durationSec": 7200,
+  "mods": {
+   "endOfFightHealPct": 0.18
+  }
+ },
+ {
+  "id": 8,
+  "name": "Bloodthirst",
+  "category": "Combat",
+  "effect": "+5% lifesteal",
+  "durationSec": 7200,
+  "mods": {
+   "lifestealPct": 0.05
+  }
+ },
+ {
+  "id": 10,
+  "name": "Armor Breaker",
+  "category": "Combat",
+  "effect": "Ignore 30% of enemy DEF (armor-pen capped at 75% total)",
+  "durationSec": 7200,
+  "mods": {
+   "ignoreEnemyDefPct": 0.3
+  }
+ },
+ {
+  "id": 11,
+  "name": "Tireless",
+  "category": "Convenience",
+  "effect": "No stamina consumption",
+  "durationSec": 7200,
+  "mods": {
+   "noStamina": true
+  }
+ },
+ {
+  "id": 13,
+  "name": "Attrition",
+  "category": "Pacing",
+  "effect": "Enemies have -15% HP (faster clears)",
+  "durationSec": 7200,
+  "mods": {
+   "enemyHpMult": 0.85
+  }
+ },
+ {
+  "id": 14,
+  "name": "Seeker's Luck",
+  "category": "Loot",
+  "effect": "Drop rate +8%",
+  "durationSec": 7200,
+  "mods": {
+   "dropRateBonus": 0.08
+  }
+ },
+ {
+  "id": 15,
+  "name": "Wisdom",
+  "category": "Loot",
+  "effect": "+20% XP",
+  "durationSec": 7200,
+  "mods": {
+   "xpBonusPct": 0.2,
+   "xpFloorPctOfBase": 0.25
+  }
+ },
+ {
+  "id": 16,
+  "name": "Collector's Eye",
+  "category": "Loot",
+  "effect": "25% chance to upgrade a drop's rarity by one tier",
+  "durationSec": 7200,
+  "mods": {
+   "higherRarityBonus": true
+  }
+ },
+ {
+  "id": 19,
+  "name": "Heavy Haul",
+  "category": "Loot",
+  "effect": "Drop rate +10%",
+  "durationSec": 7200,
+  "mods": {
+   "dropRateBonus": 0.1
+  }
+ },
+ {
+  "id": 25,
+  "name": "Sunder Oil",
+  "category": "Combat",
+  "effect": "Every other hit reduces enemy DEF by 4 (stacking, per fight)",
+  "durationSec": 7200,
+  "mods": {
+   "sunderPerHit": 4
+  }
+ },
+ {
+  "id": 26,
+  "name": "Executioner's Draught",
+  "category": "Combat",
+  "effect": "+40% damage to enemies below 50% HP",
+  "durationSec": 7200,
+  "mods": {
+   "executeBelowHpBonus": 0.4
+  }
+ },
+ {
+  "id": 27,
+  "name": "Immolation",
+  "category": "Combat",
+  "effect": "Enemy burns for 1% of its max HP per second",
+  "durationSec": 7200,
+  "mods": {
+   "immolationPctPerTurn": 0.005
+  }
+ },
+ {
+  "id": 28,
+  "name": "Piercer",
+  "category": "Combat",
+  "effect": "Your attacks ignore the enemy's elemental resistances",
+  "durationSec": 7200,
+  "mods": {
+   "ignoreAllResist": true
+  }
+ },
+ {
+  "id": 29,
+  "name": "Elixir",
+  "category": "Combat",
+  "effect": "Instantly restores 30% of your max HP",
+  "durationSec": 0,
+  "mods": {}
+ },
+ {
+  "id": 30,
+  "name": "Greater Elixir",
+  "category": "Combat",
+  "effect": "Instantly restores 50% of your max HP",
+  "durationSec": 0,
+  "mods": {}
+ }
+]

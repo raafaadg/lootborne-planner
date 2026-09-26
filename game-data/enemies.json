@@ -1,0 +1,1437 @@
+[
+ {
+  "pathId": 4125,
+  "asset": "Bandit",
+  "name": "Bandit",
+  "icon": "",
+  "variants": [
+   {
+    "color": "Grigio",
+    "hp": 749,
+    "atk": 6.204,
+    "def": 5.0,
+    "crit": 7.7,
+    "parry": 3.0,
+    "level": 7,
+    "xpBase": 366
+   },
+   {
+    "color": "Blu",
+    "hp": 832,
+    "atk": 6.864,
+    "def": 6.25,
+    "crit": 8.8,
+    "parry": 4.0,
+    "level": 9,
+    "xpBase": 574
+   },
+   {
+    "color": "Viola",
+    "hp": 916,
+    "atk": 7.524,
+    "def": 6.25,
+    "crit": 9.9,
+    "parry": 5.0,
+    "level": 11,
+    "xpBase": 824
+   }
+  ],
+  "resist": "Arcane",
+  "resist2": "Nessuna",
+  "weak": "Flame"
+ },
+ {
+  "pathId": 4126,
+  "asset": "Basilisk",
+  "name": "Basilisk",
+  "icon": "",
+  "variants": [
+   {
+    "color": "Grigio",
+    "hp": 12117,
+    "atk": 166.81,
+    "def": 96.64,
+    "crit": 31.2,
+    "parry": 10.9,
+    "level": 59,
+    "xpBase": 66338
+   },
+   {
+    "color": "Blu",
+    "hp": 15085,
+    "atk": 207.67,
+    "def": 120.33,
+    "crit": 33.3,
+    "parry": 12.1,
+    "level": 62,
+    "xpBase": 73254
+   },
+   {
+    "color": "Viola",
+    "hp": 16745,
+    "atk": 230.51,
+    "def": 133.5663,
+    "crit": 35.6,
+    "parry": 13.3,
+    "level": 65,
+    "xpBase": 80465
+   }
+  ],
+  "resist": "Shadow",
+  "resist2": "Nessuna",
+  "weak": "Arcane"
+ },
+ {
+  "pathId": 4127,
+  "asset": "Black_Dragon",
+  "name": "Black Dragon",
+  "icon": "",
+  "variants": [
+   {
+    "color": "Grigio",
+    "hp": 22696,
+    "atk": 204.974,
+    "def": 140.46,
+    "crit": 34.0,
+    "parry": 14.2,
+    "level": 61,
+    "xpBase": 66338
+   },
+   {
+    "color": "Blu",
+    "hp": 28258,
+    "atk": 255.222,
+    "def": 174.86,
+    "crit": 36.2,
+    "parry": 15.5,
+    "level": 64,
+    "xpBase": 73254
+   },
+   {
+    "color": "Viola",
+    "hp": 31366,
+    "atk": 283.294,
+    "def": 194.0946,
+    "crit": 38.5,
+    "parry": 16.8,
+    "level": 67,
+    "xpBase": 80465
+   }
+  ],
+  "resist": "Frost",
+  "resist2": "Flame",
+  "weak": "Nessuna"
+ },
+ {
+  "pathId": 4128,
+  "asset": "Black_Hornet",
+  "name": "Black Hornet",
+  "icon": "TestTube",
+  "variants": [
+   {
+    "color": "Grigio",
+    "hp": 259,
+    "atk": 4.18,
+    "def": 3.6,
+    "crit": 3.0,
+    "parry": 3.0,
+    "level": 1,
+    "xpBase": 15
+   },
+   {
+    "color": "Blu",
+    "hp": 288,
+    "atk": 4.62,
+    "def": 4.8,
+    "crit": 4.0,
+    "parry": 4.0,
+    "level": 3,
+    "xpBase": 100
+   },
+   {
+    "color": "Viola",
+    "hp": 317,
+    "atk": 5.17,
+    "def": 4.8,
+    "crit": 5.0,
+    "parry": 5.0,
+    "level": 5,
+    "xpBase": 250
+   }
+  ],
+  "resist": "Nessuna",
+  "resist2": "Nessuna",
+  "weak": "Nessuna"
+ },
+ {
+  "pathId": 4129,
+  "asset": "Black_Orc",
+  "name": "Black Orc",
+  "icon": "Dragon",
+  "variants": [
+   {
+    "color": "Grigio",
+    "hp": 3237,
+    "atk": 24.428,
+    "def": 28.16,
+    "crit": 13.396,
+    "parry": 5.0,
+    "level": 32,
+    "xpBase": 12672
+   },
+   {
+    "color": "Blu",
+    "hp": 4030,
+    "atk": 30.411,
+    "def": 35.057,
+    "crit": 14.824,
+    "parry": 5.0,
+    "level": 36,
+    "xpBase": 15664
+   },
+   {
+    "color": "Viola",
+    "hp": 4473,
+    "atk": 33.7562,
+    "def": 38.9133,
+    "crit": 16.32,
+    "parry": 6.0,
+    "level": 40,
+    "xpBase": 18936
+   }
+  ],
+  "resist": "Holy",
+  "resist2": "Nessuna",
+  "weak": "Arcane"
+ },
+ {
+  "pathId": 4130,
+  "asset": "Butcher",
+  "name": "Butcher",
+  "icon": "DragonFace",
+  "variants": [
+   {
+    "color": "Grigio",
+    "hp": 6154,
+    "atk": 36.4,
+    "def": 91.13,
+    "crit": 8.5,
+    "parry": 9.2,
+    "level": 38,
+    "xpBase": 12672
+   },
+   {
+    "color": "Blu",
+    "hp": 7661,
+    "atk": 45.31,
+    "def": 113.45,
+    "crit": 9.5,
+    "parry": 10.4,
+    "level": 42,
+    "xpBase": 15664
+   },
+   {
+    "color": "Viola",
+    "hp": 8504,
+    "atk": 50.2941,
+    "def": 125.9295,
+    "crit": 10.4,
+    "parry": 11.5,
+    "level": 46,
+    "xpBase": 18936
+   }
+  ],
+  "resist": "Shadow",
+  "resist2": "Nessuna",
+  "weak": "Frost"
+ },
+ {
+  "pathId": 4131,
+  "asset": "Carrion_Ghoul",
+  "name": "Carrion Ghoul",
+  "icon": "Rock",
+  "variants": [
+   {
+    "color": "Grigio",
+    "hp": 4765,
+    "atk": 18.8,
+    "def": 25.37,
+    "crit": 16.8,
+    "parry": 6.4,
+    "level": 31,
+    "xpBase": 6000
+   },
+   {
+    "color": "Blu",
+    "hp": 5933,
+    "atk": 23.42,
+    "def": 31.58,
+    "crit": 18.7,
+    "parry": 7.1,
+    "level": 34,
+    "xpBase": 7500
+   },
+   {
+    "color": "Viola",
+    "hp": 6586,
+    "atk": 25.9962,
+    "def": 35.0538,
+    "crit": 20.5,
+    "parry": 7.7,
+    "level": 37,
+    "xpBase": 9200
+   }
+  ],
+  "resist": "Shadow",
+  "resist2": "Nessuna",
+  "weak": "Holy"
+ },
+ {
+  "pathId": 4132,
+  "asset": "Crypt_Bats",
+  "name": "Crypt Bats",
+  "icon": "MechanicalArm",
+  "variants": [
+   {
+    "color": "Grigio",
+    "hp": 3679,
+    "atk": 13.23,
+    "def": 44.99,
+    "crit": 6.2,
+    "parry": 9.6,
+    "level": 25,
+    "xpBase": 6000
+   },
+   {
+    "color": "Blu",
+    "hp": 4580,
+    "atk": 16.47,
+    "def": 56.02,
+    "crit": 6.7,
+    "parry": 10.7,
+    "level": 28,
+    "xpBase": 7500
+   },
+   {
+    "color": "Viola",
+    "hp": 5084,
+    "atk": 18.2817,
+    "def": 62.1822,
+    "crit": 7.3,
+    "parry": 11.7,
+    "level": 31,
+    "xpBase": 9200
+   }
+  ],
+  "resist": "Shadow",
+  "resist2": "Nessuna",
+  "weak": "Flame"
+ },
+ {
+  "pathId": 4133,
+  "asset": "Cultist",
+  "name": "Cultist",
+  "icon": "⚔",
+  "variants": [
+   {
+    "color": "Grigio",
+    "hp": 7530,
+    "atk": 66.33,
+    "def": 67.98,
+    "crit": 17.0,
+    "parry": 7.7,
+    "level": 47,
+    "xpBase": 31154
+   },
+   {
+    "color": "Blu",
+    "hp": 9375,
+    "atk": 82.58,
+    "def": 84.64,
+    "crit": 18.9,
+    "parry": 8.8,
+    "level": 51,
+    "xpBase": 36562
+   },
+   {
+    "color": "Viola",
+    "hp": 10406,
+    "atk": 91.6638,
+    "def": 93.9504,
+    "crit": 20.9,
+    "parry": 9.9,
+    "level": 55,
+    "xpBase": 42354
+   }
+  ],
+  "resist": "Flame",
+  "resist2": "Nessuna",
+  "weak": "Holy"
+ },
+ {
+  "pathId": 4134,
+  "asset": "Cutthroat",
+  "name": "Cutthroat",
+  "icon": "AlienMonster",
+  "variants": [
+   {
+    "color": "Grigio",
+    "hp": 842,
+    "atk": 4.752,
+    "def": 6.25,
+    "crit": 8.8,
+    "parry": 5.0,
+    "level": 7,
+    "xpBase": 366
+   },
+   {
+    "color": "Blu",
+    "hp": 936,
+    "atk": 5.28,
+    "def": 7.5,
+    "crit": 9.9,
+    "parry": 6.0,
+    "level": 9,
+    "xpBase": 574
+   },
+   {
+    "color": "Viola",
+    "hp": 1032,
+    "atk": 5.808,
+    "def": 8.75,
+    "crit": 11.0,
+    "parry": 7.0,
+    "level": 11,
+    "xpBase": 824
+   }
+  ],
+  "resist": "Arcane",
+  "resist2": "Nessuna",
+  "weak": "Flame"
+ },
+ {
+  "pathId": 4135,
+  "asset": "Deserter",
+  "name": "Deserter",
+  "icon": "Wolf",
+  "variants": [
+   {
+    "color": "Grigio",
+    "hp": 6048,
+    "atk": 29.5454,
+    "def": 60.2,
+    "crit": 16.2,
+    "parry": 7.0,
+    "level": 43,
+    "xpBase": 31154
+   },
+   {
+    "color": "Blu",
+    "hp": 7530,
+    "atk": 36.7845,
+    "def": 74.95,
+    "crit": 18.0,
+    "parry": 8.0,
+    "level": 47,
+    "xpBase": 36562
+   },
+   {
+    "color": "Viola",
+    "hp": 8358,
+    "atk": 40.8308,
+    "def": 83.1945,
+    "crit": 19.8,
+    "parry": 9.0,
+    "level": 51,
+    "xpBase": 42354
+   }
+  ],
+  "resist": "Nessuna",
+  "resist2": "Nessuna",
+  "weak": "Shadow"
+ },
+ {
+  "pathId": 4136,
+  "asset": "Dwarf",
+  "name": "Dwarf",
+  "icon": "",
+  "variants": [
+   {
+    "color": "Grigio",
+    "hp": 11745,
+    "atk": 67.9536,
+    "def": 78.3,
+    "crit": 23.1,
+    "parry": 9.0,
+    "level": 53,
+    "xpBase": 66338
+   },
+   {
+    "color": "Blu",
+    "hp": 14623,
+    "atk": 84.6008,
+    "def": 97.48,
+    "crit": 25.2,
+    "parry": 10.0,
+    "level": 56,
+    "xpBase": 73254
+   },
+   {
+    "color": "Viola",
+    "hp": 16232,
+    "atk": 93.9069,
+    "def": 108.2028,
+    "crit": 27.3,
+    "parry": 11.0,
+    "level": 59,
+    "xpBase": 80465
+   }
+  ],
+  "resist": "Shadow",
+  "resist2": "Nessuna",
+  "weak": "Holy"
+ },
+ {
+  "pathId": 4137,
+  "asset": "Giant_Worm",
+  "name": "Giant Worm",
+  "icon": "",
+  "variants": [
+   {
+    "color": "Grigio",
+    "hp": 4893,
+    "atk": 78.051,
+    "def": 68.07,
+    "crit": 23.3,
+    "parry": 8.1,
+    "level": 49,
+    "xpBase": 31154
+   },
+   {
+    "color": "Blu",
+    "hp": 6090,
+    "atk": 97.1805,
+    "def": 84.74,
+    "crit": 25.3,
+    "parry": 9.2,
+    "level": 53,
+    "xpBase": 36562
+   },
+   {
+    "color": "Viola",
+    "hp": 6760,
+    "atk": 107.8656,
+    "def": 94.0614,
+    "crit": 27.2,
+    "parry": 10.4,
+    "level": 57,
+    "xpBase": 42354
+   }
+  ],
+  "resist": "Flame",
+  "resist2": "Nessuna",
+  "weak": "Holy"
+ },
+ {
+  "pathId": 4138,
+  "asset": "Gnoll",
+  "name": "Gnoll",
+  "icon": "Zombie",
+  "variants": [
+   {
+    "color": "Grigio",
+    "hp": 1404,
+    "atk": 15.47,
+    "def": 16.9,
+    "crit": 6.0,
+    "parry": 4.0,
+    "level": 14,
+    "xpBase": 1590
+   },
+   {
+    "color": "Blu",
+    "hp": 1560,
+    "atk": 17.16,
+    "def": 18.2,
+    "crit": 7.2,
+    "parry": 5.0,
+    "level": 17,
+    "xpBase": 2255
+   },
+   {
+    "color": "Viola",
+    "hp": 1716,
+    "atk": 18.85,
+    "def": 20.8,
+    "crit": 8.4,
+    "parry": 6.0,
+    "level": 20,
+    "xpBase": 3020
+   }
+  ],
+  "resist": "Flame",
+  "resist2": "Nessuna",
+  "weak": "Shadow"
+ },
+ {
+  "pathId": 4139,
+  "asset": "Goblin",
+  "name": "Goblin",
+  "icon": "Ghost",
+  "variants": [
+   {
+    "color": "Grigio",
+    "hp": 1685,
+    "atk": 7.6877,
+    "def": 22.1,
+    "crit": 6.0,
+    "parry": 5.0,
+    "level": 14,
+    "xpBase": 1590
+   },
+   {
+    "color": "Blu",
+    "hp": 1872,
+    "atk": 8.5114,
+    "def": 24.7,
+    "crit": 7.2,
+    "parry": 6.0,
+    "level": 17,
+    "xpBase": 2255
+   },
+   {
+    "color": "Viola",
+    "hp": 2059,
+    "atk": 9.4266,
+    "def": 27.3,
+    "crit": 8.4,
+    "parry": 7.0,
+    "level": 20,
+    "xpBase": 3020
+   }
+  ],
+  "resist": "Flame",
+  "resist2": "Nessuna",
+  "weak": "Nessuna"
+ },
+ {
+  "pathId": 4140,
+  "asset": "Goblin_Rider",
+  "name": "Goblin Rider",
+  "icon": "",
+  "variants": [
+   {
+    "color": "Grigio",
+    "hp": 3318,
+    "atk": 42.65,
+    "def": 34.36,
+    "crit": 28.8,
+    "parry": 6.6,
+    "level": 36,
+    "xpBase": 12672
+   },
+   {
+    "color": "Blu",
+    "hp": 4131,
+    "atk": 53.1,
+    "def": 42.78,
+    "crit": 32.0,
+    "parry": 6.6,
+    "level": 40,
+    "xpBase": 15664
+   },
+   {
+    "color": "Viola",
+    "hp": 4586,
+    "atk": 58.94,
+    "def": 47.4858,
+    "crit": 35.2,
+    "parry": 7.7,
+    "level": 44,
+    "xpBase": 18936
+   }
+  ],
+  "resist": "Holy",
+  "resist2": "Nessuna",
+  "weak": "Arcane"
+ },
+ {
+  "pathId": 4141,
+  "asset": "Graverobber",
+  "name": "Graverobber",
+  "icon": "Goblin",
+  "variants": [
+   {
+    "color": "Grigio",
+    "hp": 3067,
+    "atk": 8.2544,
+    "def": 38.0,
+    "crit": 6.0,
+    "parry": 7.0,
+    "level": 23,
+    "xpBase": 6000
+   },
+   {
+    "color": "Blu",
+    "hp": 3818,
+    "atk": 10.2767,
+    "def": 47.31,
+    "crit": 6.5,
+    "parry": 8.0,
+    "level": 26,
+    "xpBase": 7500
+   },
+   {
+    "color": "Viola",
+    "hp": 4238,
+    "atk": 11.4072,
+    "def": 52.5141,
+    "crit": 7.0,
+    "parry": 9.0,
+    "level": 29,
+    "xpBase": 9200
+   }
+  ],
+  "resist": "Nessuna",
+  "resist2": "Nessuna",
+  "weak": "Flame"
+ },
+ {
+  "pathId": 4142,
+  "asset": "Harpy",
+  "name": "Harpy",
+  "icon": "",
+  "variants": [
+   {
+    "color": "Grigio",
+    "hp": 8437,
+    "atk": 96.224,
+    "def": 93.31,
+    "crit": 25.9,
+    "parry": 10.9,
+    "level": 51,
+    "xpBase": 31154
+   },
+   {
+    "color": "Blu",
+    "hp": 10505,
+    "atk": 119.7995,
+    "def": 116.17,
+    "crit": 27.9,
+    "parry": 12.1,
+    "level": 55,
+    "xpBase": 36562
+   },
+   {
+    "color": "Viola",
+    "hp": 11661,
+    "atk": 132.9774,
+    "def": 128.9487,
+    "crit": 29.9,
+    "parry": 13.3,
+    "level": 59,
+    "xpBase": 42354
+   }
+  ],
+  "resist": "Arcane",
+  "resist2": "Nessuna",
+  "weak": "Shadow"
+ },
+ {
+  "pathId": 4143,
+  "asset": "Hobgoblin",
+  "name": "Hobgoblin",
+  "icon": "⚔",
+  "variants": [
+   {
+    "color": "Grigio",
+    "hp": 1264,
+    "atk": 12.87,
+    "def": 18.2,
+    "crit": 10.8,
+    "parry": 6.0,
+    "level": 14,
+    "xpBase": 1590
+   },
+   {
+    "color": "Blu",
+    "hp": 1404,
+    "atk": 14.3,
+    "def": 20.8,
+    "crit": 12.0,
+    "parry": 7.0,
+    "level": 17,
+    "xpBase": 2255
+   },
+   {
+    "color": "Viola",
+    "hp": 1544,
+    "atk": 15.73,
+    "def": 23.4,
+    "crit": 13.2,
+    "parry": 8.0,
+    "level": 20,
+    "xpBase": 3020
+   }
+  ],
+  "resist": "Frost",
+  "resist2": "Nessuna",
+  "weak": "Arcane"
+ },
+ {
+  "pathId": 4144,
+  "asset": "Hole_Dweller",
+  "name": "Hole Dweller",
+  "icon": "",
+  "variants": [
+   {
+    "color": "Grigio",
+    "hp": 15731,
+    "atk": 122.61,
+    "def": 95.16,
+    "crit": 24.0,
+    "parry": 10.2,
+    "level": 57,
+    "xpBase": 66338
+   },
+   {
+    "color": "Blu",
+    "hp": 19585,
+    "atk": 152.65,
+    "def": 118.48,
+    "crit": 26.2,
+    "parry": 11.4,
+    "level": 60,
+    "xpBase": 73254
+   },
+   {
+    "color": "Viola",
+    "hp": 21739,
+    "atk": 169.4415,
+    "def": 131.5128,
+    "crit": 28.4,
+    "parry": 12.5,
+    "level": 63,
+    "xpBase": 80465
+   }
+  ],
+  "resist": "Shadow",
+  "resist2": "Nessuna",
+  "weak": "Nessuna"
+ },
+ {
+  "pathId": 4145,
+  "asset": "Kobold",
+  "name": "Kobold",
+  "icon": "Skull",
+  "variants": [
+   {
+    "color": "Grigio",
+    "hp": 1404,
+    "atk": 4.7619,
+    "def": 18.2,
+    "crit": 6.0,
+    "parry": 4.0,
+    "level": 14,
+    "xpBase": 1590
+   },
+   {
+    "color": "Blu",
+    "hp": 1560,
+    "atk": 5.291,
+    "def": 20.8,
+    "crit": 7.2,
+    "parry": 5.0,
+    "level": 17,
+    "xpBase": 2255
+   },
+   {
+    "color": "Viola",
+    "hp": 1716,
+    "atk": 5.8201,
+    "def": 23.4,
+    "crit": 8.4,
+    "parry": 6.0,
+    "level": 20,
+    "xpBase": 3020
+   }
+  ],
+  "resist": "Flame",
+  "resist2": "Nessuna",
+  "weak": "Shadow"
+ },
+ {
+  "pathId": 4146,
+  "asset": "Marauder",
+  "name": "Marauder",
+  "icon": "⚔",
+  "variants": [
+   {
+    "color": "Grigio",
+    "hp": 8869,
+    "atk": 65.485,
+    "def": 81.23,
+    "crit": 16.6,
+    "parry": 8.4,
+    "level": 45,
+    "xpBase": 31154
+   },
+   {
+    "color": "Blu",
+    "hp": 11042,
+    "atk": 81.5325,
+    "def": 101.14,
+    "crit": 18.5,
+    "parry": 9.4,
+    "level": 49,
+    "xpBase": 36562
+   },
+   {
+    "color": "Viola",
+    "hp": 12256,
+    "atk": 90.4925,
+    "def": 112.2654,
+    "crit": 20.3,
+    "parry": 10.5,
+    "level": 53,
+    "xpBase": 42354
+   }
+  ],
+  "resist": "Flame",
+  "resist2": "Nessuna",
+  "weak": "Shadow"
+ },
+ {
+  "pathId": 4147,
+  "asset": "Ogre",
+  "name": "Ogre",
+  "icon": "CrossedSwords",
+  "variants": [
+   {
+    "color": "Grigio",
+    "hp": 7882,
+    "atk": 32.55,
+    "def": 114.39,
+    "crit": 8.0,
+    "parry": 12.1,
+    "level": 40,
+    "xpBase": 12672
+   },
+   {
+    "color": "Blu",
+    "hp": 9813,
+    "atk": 40.52,
+    "def": 142.42,
+    "crit": 8.8,
+    "parry": 13.3,
+    "level": 44,
+    "xpBase": 15664
+   },
+   {
+    "color": "Viola",
+    "hp": 10892,
+    "atk": 44.9772,
+    "def": 158.0862,
+    "crit": 9.7,
+    "parry": 14.5,
+    "level": 48,
+    "xpBase": 18936
+   }
+  ],
+  "resist": "Shadow",
+  "resist2": "Nessuna",
+  "weak": "Frost"
+ },
+ {
+  "pathId": 4148,
+  "asset": "Orc",
+  "name": "Orc",
+  "icon": "Microbe",
+  "variants": [
+   {
+    "color": "Grigio",
+    "hp": 1123,
+    "atk": 16.77,
+    "def": 15.6,
+    "crit": 9.6,
+    "parry": 4.0,
+    "level": 14,
+    "xpBase": 1590
+   },
+   {
+    "color": "Blu",
+    "hp": 1248,
+    "atk": 18.59,
+    "def": 16.9,
+    "crit": 10.8,
+    "parry": 5.0,
+    "level": 17,
+    "xpBase": 2255
+   },
+   {
+    "color": "Viola",
+    "hp": 1373,
+    "atk": 20.41,
+    "def": 18.2,
+    "crit": 12.0,
+    "parry": 6.0,
+    "level": 20,
+    "xpBase": 3020
+   }
+  ],
+  "resist": "Frost",
+  "resist2": "Nessuna",
+  "weak": "Arcane"
+ },
+ {
+  "pathId": 4149,
+  "asset": "Pit_Scum",
+  "name": "Pit Scum",
+  "icon": "",
+  "variants": [
+   {
+    "color": "Grigio",
+    "hp": 16311,
+    "atk": 83.12,
+    "def": 109.08,
+    "crit": 23.5,
+    "parry": 10.7,
+    "level": 55,
+    "xpBase": 66338
+   },
+   {
+    "color": "Blu",
+    "hp": 20307,
+    "atk": 103.49,
+    "def": 135.8,
+    "crit": 25.7,
+    "parry": 11.7,
+    "level": 58,
+    "xpBase": 73254
+   },
+   {
+    "color": "Viola",
+    "hp": 22541,
+    "atk": 114.8739,
+    "def": 150.738,
+    "crit": 27.8,
+    "parry": 12.8,
+    "level": 61,
+    "xpBase": 80465
+   }
+  ],
+  "resist": "Shadow",
+  "resist2": "Nessuna",
+  "weak": "Holy"
+ },
+ {
+  "pathId": 4150,
+  "asset": "Rabid_Wolf",
+  "name": "Rabid Wolf",
+  "icon": "⚔",
+  "variants": [
+   {
+    "color": "Grigio",
+    "hp": 194,
+    "atk": 4.95,
+    "def": 3.6,
+    "crit": 7.0,
+    "parry": 4.0,
+    "level": 1,
+    "xpBase": 15
+   },
+   {
+    "color": "Blu",
+    "hp": 216,
+    "atk": 5.5,
+    "def": 3.6,
+    "crit": 8.0,
+    "parry": 5.0,
+    "level": 3,
+    "xpBase": 100
+   },
+   {
+    "color": "Viola",
+    "hp": 238,
+    "atk": 6.05,
+    "def": 3.6,
+    "crit": 9.0,
+    "parry": 6.0,
+    "level": 5,
+    "xpBase": 250
+   }
+  ],
+  "resist": "Nessuna",
+  "resist2": "Nessuna",
+  "weak": "Nessuna"
+ },
+ {
+  "pathId": 4151,
+  "asset": "Sewer_Rat",
+  "name": "Sewer Rat",
+  "icon": "Rat",
+  "variants": [
+   {
+    "color": "Grigio",
+    "hp": 216,
+    "atk": 4.95,
+    "def": 3.6,
+    "crit": 3.0,
+    "parry": 2.0,
+    "level": 1,
+    "xpBase": 15
+   },
+   {
+    "color": "Blu",
+    "hp": 240,
+    "atk": 5.5,
+    "def": 3.6,
+    "crit": 4.0,
+    "parry": 3.0,
+    "level": 3,
+    "xpBase": 100
+   },
+   {
+    "color": "Viola",
+    "hp": 264,
+    "atk": 6.05,
+    "def": 3.6,
+    "crit": 5.0,
+    "parry": 4.0,
+    "level": 5,
+    "xpBase": 250
+   }
+  ],
+  "resist": "Nessuna",
+  "resist2": "Nessuna",
+  "weak": "Nessuna"
+ },
+ {
+  "pathId": 4152,
+  "asset": "Sewer_Scum",
+  "name": "Sewer Scum",
+  "icon": "",
+  "variants": [
+   {
+    "color": "Grigio",
+    "hp": 1125,
+    "atk": 4.026,
+    "def": 7.5,
+    "crit": 4.4,
+    "parry": 4.0,
+    "level": 7,
+    "xpBase": 366
+   },
+   {
+    "color": "Blu",
+    "hp": 1249,
+    "atk": 4.488,
+    "def": 8.75,
+    "crit": 5.5,
+    "parry": 5.0,
+    "level": 9,
+    "xpBase": 574
+   },
+   {
+    "color": "Viola",
+    "hp": 1373,
+    "atk": 4.95,
+    "def": 10.0,
+    "crit": 6.6,
+    "parry": 6.0,
+    "level": 11,
+    "xpBase": 824
+   }
+  ],
+  "resist": "Shadow",
+  "resist2": "Nessuna",
+  "weak": "Frost"
+ },
+ {
+  "pathId": 4153,
+  "asset": "Skeleton",
+  "name": "Skeleton",
+  "icon": "Mage",
+  "variants": [
+   {
+    "color": "Grigio",
+    "hp": 4262,
+    "atk": 16.25,
+    "def": 44.51,
+    "crit": 6.7,
+    "parry": 7.9,
+    "level": 27,
+    "xpBase": 6000
+   },
+   {
+    "color": "Blu",
+    "hp": 5306,
+    "atk": 20.22,
+    "def": 55.41,
+    "crit": 7.4,
+    "parry": 7.9,
+    "level": 30,
+    "xpBase": 7500
+   },
+   {
+    "color": "Viola",
+    "hp": 5890,
+    "atk": 22.4442,
+    "def": 61.5051,
+    "crit": 8.2,
+    "parry": 9.1,
+    "level": 33,
+    "xpBase": 9200
+   }
+  ],
+  "resist": "Shadow",
+  "resist2": "Nessuna",
+  "weak": "Holy"
+ },
+ {
+  "pathId": 4154,
+  "asset": "Thief",
+  "name": "Thief",
+  "icon": "Ogre",
+  "variants": [
+   {
+    "color": "Grigio",
+    "hp": 936,
+    "atk": 2.376,
+    "def": 6.25,
+    "crit": 4.4,
+    "parry": 3.0,
+    "level": 7,
+    "xpBase": 366
+   },
+   {
+    "color": "Blu",
+    "hp": 1040,
+    "atk": 2.64,
+    "def": 7.5,
+    "crit": 5.5,
+    "parry": 4.0,
+    "level": 9,
+    "xpBase": 574
+   },
+   {
+    "color": "Viola",
+    "hp": 1145,
+    "atk": 2.904,
+    "def": 8.75,
+    "crit": 6.6,
+    "parry": 5.0,
+    "level": 11,
+    "xpBase": 824
+   }
+  ],
+  "resist": "Nessuna",
+  "resist2": "Nessuna",
+  "weak": "Frost"
+ },
+ {
+  "pathId": 4155,
+  "asset": "Thug",
+  "name": "Thug",
+  "icon": "",
+  "variants": [
+   {
+    "color": "Grigio",
+    "hp": 936,
+    "atk": 5.676,
+    "def": 6.25,
+    "crit": 4.4,
+    "parry": 3.0,
+    "level": 7,
+    "xpBase": 366
+   },
+   {
+    "color": "Blu",
+    "hp": 1040,
+    "atk": 6.336,
+    "def": 6.25,
+    "crit": 5.5,
+    "parry": 4.0,
+    "level": 9,
+    "xpBase": 574
+   },
+   {
+    "color": "Viola",
+    "hp": 1145,
+    "atk": 6.996,
+    "def": 7.5,
+    "crit": 6.6,
+    "parry": 5.0,
+    "level": 11,
+    "xpBase": 824
+   }
+  ],
+  "resist": "Nessuna",
+  "resist2": "Nessuna",
+  "weak": "Frost"
+ },
+ {
+  "pathId": 4156,
+  "asset": "Troll",
+  "name": "Troll",
+  "icon": "AlienMonster",
+  "variants": [
+   {
+    "color": "Grigio",
+    "hp": 3572,
+    "atk": 32.0827,
+    "def": 27.6465,
+    "crit": 19.28,
+    "parry": 5.2,
+    "level": 34,
+    "xpBase": 12672
+   },
+   {
+    "color": "Blu",
+    "hp": 4447,
+    "atk": 39.9465,
+    "def": 34.419,
+    "crit": 21.36,
+    "parry": 5.2,
+    "level": 38,
+    "xpBase": 15664
+   },
+   {
+    "color": "Viola",
+    "hp": 4936,
+    "atk": 44.3406,
+    "def": 38.2051,
+    "crit": 23.52,
+    "parry": 6.3,
+    "level": 42,
+    "xpBase": 18936
+   }
+  ],
+  "resist": "Holy",
+  "resist2": "Nessuna",
+  "weak": "Arcane"
+ },
+ {
+  "pathId": 4157,
+  "asset": "Widow_Spider",
+  "name": "Widow Spider",
+  "icon": "🕷",
+  "variants": [
+   {
+    "color": "Grigio",
+    "hp": 173,
+    "atk": 6.49,
+    "def": 2.4,
+    "crit": 6.0,
+    "parry": 2.0,
+    "level": 1,
+    "xpBase": 15
+   },
+   {
+    "color": "Blu",
+    "hp": 192,
+    "atk": 7.15,
+    "def": 2.4,
+    "crit": 7.0,
+    "parry": 3.0,
+    "level": 3,
+    "xpBase": 100
+   },
+   {
+    "color": "Viola",
+    "hp": 211,
+    "atk": 7.92,
+    "def": 3.6,
+    "crit": 8.0,
+    "parry": 4.0,
+    "level": 5,
+    "xpBase": 250
+   }
+  ],
+  "resist": "Nessuna",
+  "resist2": "Nessuna",
+  "weak": "Nessuna"
+ },
+ {
+  "pathId": 4158,
+  "asset": "Wild_Boar",
+  "name": "Wild Boar",
+  "icon": "Bat",
+  "variants": [
+   {
+    "color": "Grigio",
+    "hp": 216,
+    "atk": 5.94,
+    "def": 2.4,
+    "crit": 3.0,
+    "parry": 2.0,
+    "level": 1,
+    "xpBase": 15
+   },
+   {
+    "color": "Blu",
+    "hp": 240,
+    "atk": 6.6,
+    "def": 3.6,
+    "crit": 4.0,
+    "parry": 3.0,
+    "level": 3,
+    "xpBase": 100
+   },
+   {
+    "color": "Viola",
+    "hp": 264,
+    "atk": 7.26,
+    "def": 3.6,
+    "crit": 5.0,
+    "parry": 4.0,
+    "level": 5,
+    "xpBase": 250
+   }
+  ],
+  "resist": "Nessuna",
+  "resist2": "Nessuna",
+  "weak": "Nessuna"
+ },
+ {
+  "pathId": 4159,
+  "asset": "Zombie",
+  "name": "Zombie",
+  "icon": "Fire",
+  "variants": [
+   {
+    "color": "Grigio",
+    "hp": 4111,
+    "atk": 22.38,
+    "def": 24.96,
+    "crit": 12.9,
+    "parry": 4.8,
+    "level": 29,
+    "xpBase": 6000
+   },
+   {
+    "color": "Blu",
+    "hp": 5119,
+    "atk": 27.87,
+    "def": 31.07,
+    "crit": 14.4,
+    "parry": 5.4,
+    "level": 32,
+    "xpBase": 7500
+   },
+   {
+    "color": "Viola",
+    "hp": 5682,
+    "atk": 30.9357,
+    "def": 34.4877,
+    "crit": 15.7,
+    "parry": 6.1,
+    "level": 35,
+    "xpBase": 9200
+   }
+  ],
+  "resist": "Shadow",
+  "resist2": "Nessuna",
+  "weak": "Holy"
+ }
+]

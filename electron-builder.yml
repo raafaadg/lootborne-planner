@@ -1,0 +1,25 @@
+# Windows installer, wrapped around the portable folder `npm run dist` assembles (scripts/package-zip.mjs):
+# the same Electron, the same app and the same frida, so the zip and the installer never differ.
+# Built by `npm run dist:installer`; the GitHub release workflow runs both.
+appId: io.github.raafaadg.lootborne-planner
+productName: Lootborne Planner
+copyright: Ferramenta não oficial, feita por fãs. Sem vínculo com a Turbolento Games ou a Valve.
+directories:
+  output: release/installer
+win:
+  target:
+    - target: nsis
+      arch: x64
+nsis:
+  # an assisted installer for the current user: no admin rights, the folder can be changed
+  oneClick: false
+  perMachine: false
+  allowElevation: false
+  allowToChangeInstallationDirectory: true
+  createDesktopShortcut: true
+  createStartMenuShortcut: true
+  shortcutName: Lootborne Planner
+  artifactName: Lootborne-Planner-Setup-${version}.exe
+  # the data (history, PvP archive, settings) lives in %APPDATA%\lootborne-planner: an uninstall keeps it
+  deleteAppDataOnUninstall: false
+  runAfterFinish: true

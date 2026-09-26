@@ -1,0 +1,80 @@
+LOOTBORNE PLANNER
+=================
+
+Planejador para o Lootborne (Steam): builds, XP e PvP. Personagem (e quanto falta para o nível
+60 no farm atual), luta ao vivo turno a turno,
+todas as lutas (PvE, PvP e os bosses de PvP) com o tempo de cada uma e as médias, uma biblioteca
+com todos os itens, perks e poções do jogo para testar no personagem, inventário, build
+e onde investir os pontos (ou redistribuir tudo num respec), trocas de equipamento por parte (com o efeito das sinergias), simulador
+de setor (chance de vitória de cada inimigo e de fechar o setor, com as poções que você quiser
+testar), timeline, PvP com o histórico completo e a ficha de cada adversário, e alertas no
+Windows / Discord.
+
+Ferramenta NÃO oficial, feita por fãs. Sem vínculo com a Turbolento Games ou a Valve.
+
+
+COMO USAR
+---------
+1. Extraia a pasta inteira em qualquer lugar (ex.: Documentos). Não rode de dentro do zip.
+2. Abra "Lootborne Planner.exe".
+3. Na primeira vez o Windows pode mostrar "O Windows protegeu o computador" (o app não é
+   assinado): clique em "Mais informações" > "Executar assim mesmo".
+
+Requisitos: Windows 10/11 64 bits e o Lootborne instalado e aberto ao menos uma vez
+(o app lê o save em %USERPROFILE%\AppData\LocalLow\Turbolento Games\Lootborne).
+
+
+O QUE O APP FAZ COM O JOGO
+--------------------------
+- Só LÊ. Nunca escreve no save, na memória ou na pasta do jogo e não clica em nada.
+- Sempre ligado: lê o save (gravado pelo jogo a cada luta) e os replays de PvP.
+- Modo ao vivo (OPCIONAL, desligado por padrão, aba "Alertas & Ao vivo"): usa o Frida para
+  observar o processo do jogo e mostrar o inimigo atual, cada turno, os drops na hora e os seus
+  atributos exatos. Ele só observa (não muda nada), mas injeta um agente no processo do jogo.
+  O antivírus pode avisar por causa disso. Se preferir, deixe desligado: o resto funciona com o save.
+
+
+ONDE FICAM OS DADOS
+-------------------
+%APPDATA%\lootborne-planner   (configurações, histórico de eventos, replays de PvP arquivados,
+                              live.log de diagnóstico)
+
+O jogo apaga os replays de PvP antigos (guarda só os 15 últimos). O app copia cada um para
+%APPDATA%\lootborne-planner\pvp, então o histórico daqui só cresce.
+Para "zerar" o app, feche-o e apague essa pasta.
+
+Veio do Lootborne Companion? O app mudou de nome. Na primeira vez que abrir, o Planner copia os
+seus dados de %APPDATA%\lootborne-companion (configurações, histórico e o arquivo de PvP). A pasta
+antiga não é apagada nem alterada. Feche o Companion antes de abrir o Planner: os dois ligados ao
+mesmo tempo conectariam o modo ao vivo duas vezes ao jogo.
+
+
+SE A JANELA NÃO ABRIR
+---------------------
+O "Lootborne Planner.exe" aparece no Gerenciador de Tarefas mas nenhuma janela abre:
+1. Feche TODOS os "Lootborne Planner" no Gerenciador de Tarefas (só roda uma cópia por vez: uma
+   presa em segundo plano faz as próximas fecharem sozinhas) e abra de novo.
+2. Confira se a pasta foi extraída inteira, fora do zip, e fora do OneDrive/rede.
+3. Placa de vídeo: se o driver de vídeo trava o Chromium, a janela nunca aparece. O app já tenta
+   sozinho abrir no modo sem aceleração (cria o arquivo %APPDATA%\lootborne-planner\disable-gpu).
+   Para forçar: crie um atalho do "Lootborne Planner.exe" e acrescente --disable-gpu no fim do
+   campo Destino (ex.: "...\Lootborne Planner.exe" --disable-gpu).
+4. Se ainda assim não abrir, mande o arquivo startup.log: fica em %APPDATA%\lootborne-planner
+   ou, se essa pasta não puder ser criada, em %TEMP%. Se o app não consegue iniciar, agora ele
+   mostra uma mensagem com o erro em vez de ficar invisível.
+Outros antivírus (não o Defender) às vezes bloqueiam o app ou a pasta %APPDATA%: libere a pasta do
+app e a %APPDATA%\lootborne-planner.
+
+
+COMPATIBILIDADE
+---------------
+Testado com o Lootborne build c4889dfe (Unity 6000.3.1f1, setembro/2026). Updates do jogo podem
+mudar o save ou o código; o modo ao vivo resolve tudo pelo nome e costuma continuar funcionando,
+e o cabeçalho mostra "hooks x/13" para conferir.
+
+
+LICENÇAS
+--------
+Electron (MIT) e Chromium: LICENSE e LICENSES.chromium.html nesta pasta.
+Frida (LGPL-2.0 com a exceção wxWindows, que permite distribuir o binário): resources\app\node_modules\frida.
+React, Tailwind CSS (MIT), embutidos no app. Visual baseado no painel do BotFarm Planner.
